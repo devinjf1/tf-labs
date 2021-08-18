@@ -1,8 +1,8 @@
 plugin: gcp_compute
 projects:
-  - infra-20210121-student13xinnov
+  - infra-tf-20210812-student5xinn-tfstate
 auth_kind: serviceaccount
-service_account_file: ./creds/jenkins-sa.json
+service_account_file: /creds/jenkins-sa.json
 filters: []
 keyed_groups:
   - key: labels
